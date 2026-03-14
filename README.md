@@ -6,3 +6,5 @@ Features:
 - MongoDB tracking
 - Click analytics
 - Credential attempt detection
+
+to run the website just run the index.html
