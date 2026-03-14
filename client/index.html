@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Phishing Simulator Dashboard</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Phishing Simulator</h1>
+
+<h2>Launch Campaign</h2>
+
+<input id="email" placeholder="Enter target email">
+
+<button onclick="sendCampaign()">Send Phishing Email</button>
+
+<p id="status"></p>
+
+<hr>
+
+<h2>Analytics</h2>
+
+<div class="stats">
+
+<p>Total Emails: <span id="totalEmails">0</span></p>
+
+<p>Total Clicks: <span id="clicked">0</span></p>
+
+<p>Credential Attempts: <span id="credentials">0</span></p>
+
+<p>Click Rate: <span id="clickRate">0</span>%</p>
+
+<p>Credential Rate: <span id="credentialRate">0</span>%</p>
+
+<p>Avg Response Time: <span id="responseTime">0</span> sec</p>
+
+</div>
+
+<button onclick="loadStats()">Refresh Analytics</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
